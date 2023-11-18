@@ -26,9 +26,45 @@ html {
 }
 
 body {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Rubik", sans-serif;
+  background: var(--secondary-Very-dark-blue);
+}
+
+.container {
+  width: 90%;
+  /* border: 2px solid limegreen; */
+}
+
+.card {
+  border-radius: 12px;
+  padding: 1em;
+  background-color: var(--secondary-Dark-blue);
+}
+
+.profile {
+  background-color: var(--primary-Blue);
+}
+
+.main-card {
+  /* display: flex; */
+}
+
+.avatar {
+}
+
+.main-title {
+  color: rgb(168, 168, 168);
+  font-size: 1rem;
+}
+
+.author-name {
+  font-size: 1.8rem;
+  color: white;
 }
 
 .attribution {

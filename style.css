@@ -175,4 +175,10 @@ body {
   .container {
     flex-direction: row;
   }
+
+  .main-card {
+  }
+
+  .cards {
+  }
 }

@@ -36,15 +36,14 @@ body {
 }
 
 .container {
-  padding: 2em 0;
   width: 85%;
   display: flex;
+  gap: 1em;
   flex-direction: column;
 }
 
 .card {
   border-radius: 12px;
-  margin-bottom: 1em;
   background-color: var(--secondary-Dark-blue);
 }
 
@@ -139,10 +138,10 @@ body {
 
 .time-card {
   padding: 1.2em;
+  margin-bottom: 1.3em;
   position: relative;
   color: white;
   font-weight: 100;
-  margin-top: -1.2em;
   background-color: var(--secondary-Dark-blue);
   border-radius: 12px;
 }
@@ -179,8 +178,13 @@ body {
     max-width: 800px;
   }
 
+  .cards {
+    width: 100%;
+  }
+
   .card {
     margin: 0.3em;
+    width: 100%;
   }
 
   .main-card {
@@ -197,6 +201,7 @@ body {
     display: block;
     padding: 1.3em;
   }
+
   .profile h1 {
     margin-top: 2em;
     font-size: 1rem;
@@ -221,10 +226,14 @@ body {
   }
 
   .cards {
+    gap: 0.4em;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 
-  .time-card {
+@media (min-width: 1024px) {
+  .cards {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

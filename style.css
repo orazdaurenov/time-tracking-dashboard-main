@@ -136,7 +136,7 @@ body {
   color: var(--secondary-Desaturated-blue);
 }
 
-.time-card {
+.cards .card .time-card {
   padding: 1.2em;
   margin-bottom: 1.3em;
   position: relative;

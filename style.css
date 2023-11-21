@@ -45,7 +45,7 @@ body {
 .card {
   border-radius: 12px;
   display: flex;
-  gap: .5em;
+  gap: 1em;
   flex-direction: column;
   justify-content: space-between;
   background-color: var(--secondary-Dark-blue);

@@ -164,6 +164,15 @@ body {
   padding-top: 0.5em;
 }
 
+.cards, .card {
+  width: 100%;
+}
+
+.cards {
+  display: grid;
+  gap: 1em;
+}
+
 /*----------Footer-----------*/
 .attribution {
   font-size: 11px;
@@ -180,14 +189,6 @@ body {
     flex-direction: row;
     margin: 0 auto;
     max-width: 800px;
-  }
-
-  .cards {
-    width: 100%;
-  }
-
-  .card {
-    width: 100%;
   }
 
   .main-card {

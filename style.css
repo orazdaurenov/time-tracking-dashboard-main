@@ -153,6 +153,7 @@ body {
 
 .row {
   display: flex;
+  padding: 1.3em;
   justify-content: space-between;
   align-items: center;
 }

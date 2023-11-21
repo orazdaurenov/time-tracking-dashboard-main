@@ -37,8 +37,9 @@ body {
 
 .container {
   width: 85%;
+  padding: 1em 0;
   display: flex;
-  gap: 0.5em;
+  gap: 1em;
   flex-direction: column;
 }
 

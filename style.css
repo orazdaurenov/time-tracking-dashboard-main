@@ -141,7 +141,7 @@ body {
   color: var(--secondary-Desaturated-blue);
 }
 
-.cards .card .time-card {
+.time-card {
   padding: 1.2em;
   width: inherit;
   position: relative;
@@ -234,6 +234,10 @@ body {
     gap: 0.3em;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .row {
+    flex-direction: column;
   }
 }
 

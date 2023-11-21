@@ -141,7 +141,7 @@ body {
 
 .cards .card .time-card {
   padding: 1.2em;
-  margin-bottom: 1.3em;
+  width: inherit;
   position: relative;
   color: white;
   font-weight: 100;

@@ -137,7 +137,7 @@ body {
 }
 
 .period {
-  font-size: 1rem;
+  font-size: 1.4rem;
   color: var(--secondary-Desaturated-blue);
 }
 
@@ -151,9 +151,10 @@ body {
   border-radius: 12px;
 }
 
-.row {
+.category-row,
+.timing-row {
   display: flex;
-  padding: 1.3em;
+  padding: 0.5em;
   justify-content: space-between;
   align-items: center;
 }
@@ -166,13 +167,18 @@ body {
   padding-top: 0.5em;
 }
 
-.cards, .card {
+.cards,
+.card {
   width: 100%;
 }
 
 .cards {
   display: grid;
   gap: 1em;
+}
+
+.hours {
+  font-size: 3.5rem;
 }
 
 /*----------Footer-----------*/
@@ -237,16 +243,15 @@ body {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .timing > .row {
-    justify-content: flex-start;
-    line-height: 2;
+  .timing-row {
     flex-direction: column;
+    align-items: flex-start;
+    line-height: 1.3;
   }
 
-  .timing:nth-child(p) {
-    font-size: 2.5rem;
+  .hours {
+    font-size: 4rem;
   }
-
 }
 
 @media (min-width: 1024px) {
